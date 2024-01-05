@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  #819ba875; /* Set a light background color for the body */
+}
+
+header {
+  background-color: #20455E; /* Set a vibrant background color for the header */
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: dotted;
+  size: 1000px;
+  color: rgb(255, 255, 255);
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Set a background color for the login box */
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.poda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input {
+
+  margin-right: 5px;
+}
+/* App.css */
+
+/* Add this CSS for the video cards */
+.video-card {
+   /* Set the maximum width of the card */
+  margin: 100px; /* Add some margin for spacing between cards */
+  height: 200px; 
+  width: fit-content;
+}
+
+.card-container {   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
